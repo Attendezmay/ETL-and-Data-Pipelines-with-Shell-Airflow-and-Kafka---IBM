@@ -582,8 +582,6 @@ tr <span class="hljs-string">"#"</span> <span class="hljs-string">","</span> &#x
       </tbody>
     </table>
     <p>Copyright (c) 2021 IBM Corporation. All rights reserved.</p>
-    <script>window.addEventListener('load', function() {
-snFaculty.inject();
-});
+    
   </body>
 </html>
