@@ -19,3 +19,10 @@ Extract, transform and load (ETL) pipelines are created with Bash scripts that c
 The key advantage of Apache Airflow's approach to representing data pipelines as DAGs is that they are expressed as code, which makes your data pipelines more maintainable, testable, and collaborative. Tasks, the nodes in a DAG, are created by implementing Airflow's built-in operators.​
 
 In this module, you will learn about Apache Airflow having a rich UI that simplifies working with data pipelines. You will explore how to visualize your DAG in graph or tree mode. You will also learn about the key components of a DAG definition file, and you will learn that Airflow logs are saved into local file systems and then sent to cloud storage, search engines, and log analyzers.
+
+
+### Building Streaming Pipelines using Kafka
+
+Apache Kafka is a very popular open source event streaming pipeline. An event is a type of data that describes the entity’s observable state updates over time. Popular Kafka service providers include Confluent Cloud, IBM Event Stream, and Amazon MSK. Additionally, Kafka Streams API is a client library supporting you with data processing in event streaming pipelines.
+
+In this module, you will learn that the core components of Kafka are brokers, topics, partitions, replications, producers, and consumers. You will explore two special types of processors in the Kafka Stream API stream-processing topology: The source processor and the sink processor. You will also learn about building event streaming pipelines using Kafka.
